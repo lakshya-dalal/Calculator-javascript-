@@ -1,0 +1,50 @@
+body{
+text-align: center;
+font: 100px;
+color:white;
+}
+.outer{height:auto;
+  width:50%;
+  min-width:200px;
+  padding: 20px;
+  background-color: rgb(56, 56, 29);
+  margin:4px solid black;
+  border:2px solid rgb(233, 235, 156);
+  border-radius: 10%;
+}
+.one{
+  padding:2px;
+}
+span{
+  display: inline-block;
+  height:40px;
+  width:40px;
+  padding-top: 5px;
+  text-align: center;
+  border-radius: 50%;
+  border:2px solid rgb(233, 235, 156);
+}
+span:active{
+  background-color: rgb(158, 147, 43);
+}
+span:hover{transition: 500ms ease-in-out;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(7, 7, 5);
+  background-color: rgb(124, 121, 89);
+  text-shadow: 2px 2px blueviolet ;
+}
+p{
+  min-width:182px;
+  width:auto;
+}
+span:nth-child(4n){
+  background-color:brown;
+}
+.cal{
+width: inherit;
+height:100%;
+background-color: black;
+}
+.final{border-radius: 0mm;
+background-color: lightcyan;
+}
